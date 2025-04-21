@@ -1,0 +1,146 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fa;
+    color: #111827;
+    padding: 30px;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #2563eb;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #d1d5db;
+    margin: 30px 0;
+  }
+  
+  /* Projects Section */
+  a {
+    color: #1e3a8a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2563eb;
+  }
+  
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  /* Modern Layout */
+  .project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-info {
+    flex: 1;
+  }
+  
+  /* Profile Intro Section */
+  /* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 40px;
+    background-color: #ffffff;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); /* optional light pattern */
+    flex-wrap: wrap;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1f2937;
+  }
+  .hero-text span {
+    color: #f97316;
+  }
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin: 15px 0 25px;
+  }
+  .hero-btn {
+    padding: 12px 24px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .hero-btn:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-image {
+    width: 450px;
+    height: 450px;
+     /* yellow background */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+  .circle-image img {
+    width: 320px;
+    height: auto;
+  }
+  
+  
+  /* Footer */
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #4b5563;
+    font-size: 0.9rem;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
