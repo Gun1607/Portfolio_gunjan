@@ -73,7 +73,7 @@
   
   /* Profile Intro Section */
   /* Hero Section */
-.hero {
+.hero, #projects, .skills-section{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -120,6 +120,7 @@
     width: 450px;
     height: 450px;
      /* yellow background */
+    background-color: rgb(255, 174, 0,0.7);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -127,8 +128,10 @@
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
   }
   .circle-image img {
-    width: 320px;
-    height: auto;
+    width: auto;
+    height: 380px;
+    padding-bottom: 3px;
+    box-shadow: none;
   }
   
   
